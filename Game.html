@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tres en raya</title>
+    <link rel="icon" type="image/png" href="img/logo2.png" />
+    <link rel="stylesheet" href="css/stylesGame.css">
+</head>
+
+<body  onkeypress="handleEnter(event)">
+    <table>
+        <tr>
+            <td class="cell" id="0"></td>
+            <td class="cell" id="1"></td>
+            <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="3"></td>
+            <td class="cell" id="4"></td>
+            <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="6"></td>
+            <td class="cell" id="7"></td>
+            <td class="cell" id="8"></td>
+        </tr>
+    </table>
+    <div class="endgame">
+        <div class="text"></div>
+    </div>
+    <div class="wrapper">
+        <button id="button-easy">Fácil</button>
+        <button id="button-hard">Difícil</button>
+        <button id="button-O">O</button>
+        <button id="button-X">X</button>
+        <button id="credits-button">Créditos</button>
+        <button id="replayButton">Reiniciar</button>
+        <form style="display: inline" action="Index.html" method="get">
+            <button id="indexButton">Inicio</button>
+        </form>
+    </div>
+    <div id="reiniciar-tecla"></div>
+    <p id="espacio">Puedes pulsar la tecla "<i>Espacio</i>" para reiniciar el juego.</p>
+    <script src="js/scriptsGame.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+#header{
+    width: 100%;
+}
+#headLogo {
+    width: 75px;
+    height: 50px;
+}
+#adminCarousel {
+    background-color: grey;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#clean {
+    margin: auto 180px auto;
+}
+.wrapper {
+    text-align: center;
+}
+.button {
+    position: absolute;
+    top: 50%;
+}
+#error-nombre, #error-apellidos, #error-edad, #error-edad2, #error-email, #error-partido, #error-conditions {
+    color: red;
+    display: none;
+}
